@@ -1,6 +1,5 @@
 plugins {
     id("com.android.library")
-    id("org.jetbrains.kotlin.android")
 }
 
 android {
@@ -33,7 +32,7 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core-ktx:1.9.0")
-    implementation("com.fasterxml.jackson.core:jackson-databind:2.15.3")
+    implementation("androidx.core:core-ktx:1.17.0")
+    implementation("com.fasterxml.jackson.core:jackson-databind:2.21.0")
     implementation(project(":tauri-android"))
 }
